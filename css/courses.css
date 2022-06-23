@@ -1,0 +1,23 @@
+p {
+   color: #520096;
+}
+
+.courses {
+    background-color: #EFF3F5;
+    box-sizing: border-box;
+    background: rgba(235, 246, 253, 0.34);
+    border: 1px solid #D0EDF4;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(43px);
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 53px;
+}
+
+.courses__group {    
+    color: #520096;
+    font-size: 14px;
+    font-weight: 500;
+    display: grid;
+}

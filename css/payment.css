@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=JetBrains+Mono&display=swap');
+
+.payment {
+    width: 340px;
+    height: 460px;
+    background-color: #D0EDF4;
+    box-sizing: border-box;
+    background: rgba(235, 246, 253, 0.34);
+    border: 1px solid #D0EDF4;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: IBM Plex Mono;
+}
+
+
+.payment__header {
+    font-weight: 700;
+    font-size: 25px;
+    color: #520096;
+}
+
+.payment__price {
+    color: #5ABAD6;
+    font-size: 34px;
+    font-style: medium;
+
+}
+
+
+.payment__list {
+    font-family: JetBrains Mono;
+    font-style: regular;
+    font-size: 14px;
+    color: #520096;
+}
